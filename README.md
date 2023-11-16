@@ -65,7 +65,9 @@ The application relies primarily on internal data, supplemented by the integrati
 
 ### Mockups
 
-TBD
+![Home Page](./project-mockups/home-screen.png)
+![Restaurant Details](./project-mockups/restaurant-details-screen.png)
+![Menu Details](./project-mockups//restaurant-menu-screen.png)
 
 ### Data
 
@@ -137,10 +139,9 @@ Day 13: Bug Fixing and Optimization
 
 ## Nice-to-haves
 
-User Reviews: Provide users with the ability to submit reviews for the restaurant as guests.
+User Account Creation: Allow users to create accounts
 
-Restaurant Account Creation: Allow restaurants to create accounts, providing a platform for managing their menu information.
+User Account Update: Allow users to update information for their accounts
 
-Menu Creation and Update: Implement functionality for restaurants to create and update menu information through their accounts.
+Comments/Rating : Allow users to leave reviews and/or rate the restaurant
 
-Menu Item Deletion: Enable restaurants to delete particular menu items when updating their offerings.
