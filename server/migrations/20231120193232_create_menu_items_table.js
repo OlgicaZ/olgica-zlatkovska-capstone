@@ -5,7 +5,7 @@ exports.up = function(knex) {
             .integer('restaurant_id')
             .unsigned()
             .references('restaurants.id')
-            .onUpdate('CAS  CADE')
+            .onUpdate('CASCADE')
             .onDelete('CASCADE');
         table.string('menu_item_name').notNullable();
         table.string('description').notNullable();
