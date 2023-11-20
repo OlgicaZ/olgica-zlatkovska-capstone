@@ -90,6 +90,8 @@ The application relies primarily on internal data, supplemented by the integrati
 - canBeOmitted: Indicates whether the allergen can be omitted from the menu item.
 - menu_item_id (Foreign Key): Links to the id in the Menu Item table
 
+![ER Diagram](./project-mockups/ER-diagram.PNG)
+
 ### Endpoints
 
 TBD
