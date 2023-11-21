@@ -2,7 +2,7 @@ exports.up = function(knex) {
     return knex.schema.createTable('restaurants', (table) => {
         table.increments('id').primary();
         table.string('restaurant_name').notNullable();
-        table.string('cusine').notNullable();
+        table.string('cuisine').notNullable();
         table.string('description').notNullable();
         table.string('about').notNullable();
         table.string('contact_phone').notNullable();
